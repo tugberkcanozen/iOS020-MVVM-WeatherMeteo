@@ -89,6 +89,33 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		B682DDFF27FB269E0099B3B7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD537C27FA18E80043ADAE /* AppDelegate.swift */,
+				B6FD537E27FA18E80043ADAE /* SceneDelegate.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B682DE0027FB43610099B3B7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD538227FA18E80043ADAE /* Main.storyboard */,
+				B6FD538727FA18EA0043ADAE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B682DE0127FB43720099B3B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6FD538527FA18EA0043ADAE /* Assets.xcassets */,
+				B6FD538A27FA18EA0043ADAE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B6D4840D27FA20BD0076E687 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +160,9 @@
 		B6FD537B27FA18E80043ADAE /* Weather Meteo */ = {
 			isa = PBXGroup;
 			children = (
+				B682DE0127FB43720099B3B7 /* Resources */,
+				B682DE0027FB43610099B3B7 /* Storyboard */,
+				B682DDFF27FB269E0099B3B7 /* Utility */,
 				B65997F227FAD248000AA26F /* Extensions */,
 				B65997EF27FAD1EC000AA26F /* Helpers */,
 				B65997EC27FAD157000AA26F /* View Models */,
@@ -140,12 +170,6 @@
 				B6D4841627FA36910076E687 /* Service */,
 				B6D4841227FA2C1B0076E687 /* Custom Cells */,
 				B6D4840D27FA20BD0076E687 /* Controllers */,
-				B6FD537C27FA18E80043ADAE /* AppDelegate.swift */,
-				B6FD537E27FA18E80043ADAE /* SceneDelegate.swift */,
-				B6FD538227FA18E80043ADAE /* Main.storyboard */,
-				B6FD538527FA18EA0043ADAE /* Assets.xcassets */,
-				B6FD538727FA18EA0043ADAE /* LaunchScreen.storyboard */,
-				B6FD538A27FA18EA0043ADAE /* Info.plist */,
 			);
 			path = "Weather Meteo";
 			sourceTree = "<group>";
@@ -381,7 +405,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UTB88M2Z94;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Weather Meteo/Info.plist";
+				INFOPLIST_FILE = "Weather Meteo/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -409,7 +433,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UTB88M2Z94;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Weather Meteo/Info.plist";
+				INFOPLIST_FILE = "Weather Meteo/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
